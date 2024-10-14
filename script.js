@@ -9,3 +9,7 @@ window.onload = function() {
 function changeText() {
   document.getElementById("myParagraph").innerText = "You clicked the button!";
 }
+
+function resetText() {
+  document.getElementById("myParagraph").innerText = "This text will change when you click the button.";
+}

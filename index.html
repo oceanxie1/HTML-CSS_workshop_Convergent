@@ -3,16 +3,32 @@
 <head>
   <title>My Personal Project</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
 
   <h1>Hello World!</h1>
-  
+
   <p>This is my first web page!</p>
   
+  <p id="myParagraph">This text will change when you click the button.</p>
+  
   <button onclick="changeText()">Click me!</button>
+  <button onclick="resetText()">Reset</button>
+
+  <section>
+    <h2>About Me</h2>
+    <p>My name is Ocean!</p>
+  </section>
+
+  <footer>
+    <h3>Follow Me</h3>
+    <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/oceanxie" target="_blank">LinkedIn</a></li>
+      <li><a href="https://open.spotify.com/user/12162668621" target="_blank">Spotify</a></li>
+    </ul>
+  </footer>  
   
 </body>
 
